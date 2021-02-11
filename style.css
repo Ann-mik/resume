@@ -85,7 +85,6 @@ li{
 }
 @media screen and (max-width: 768px) {
     .str{
-        display: flex;
-        flex-direction: column;
+        display: block;
     }
   }
