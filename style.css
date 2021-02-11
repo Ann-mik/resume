@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Roboto;
+    color: #ffffff;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+.str {
+    display: flex;
+}
+.kolonka-left {
+    flex: 1 1 236px;
+    background: #0a0a0a;
+    padding: 5%;
+}
+.kolonka-right{
+    flex: 3 1 359px;
+    background: #ffffff;
+    padding: 5%;
+    color: black;
+}
+.ava {
+    width: 90%;
+    border-radius: 100%;
+    margin: 0% 5%;
+}
+.kolonka-left h3{
+    text-align: center;
+    margin: 10% 0%;
+}
+.table_1{
+    display: grid;
+    grid: repeat(4, 2rem)/ auto 1fr;
+}
+.table_1 p{
+    text-align: right;
+}
+.table_2{
+    display: grid;
+    grid: repeat(7, 2rem)/ repeat(2, 1fr);
+}
+.fio{
+    width: 80%;
+    margin: 0% 0% 5% 20%;
+}
+ul{
+    list-style-position: inside;
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.frame1{
+    list-style-image: url(./image/1frame.png);
+}
+.frame2{
+    list-style-image: url(./image/2frame.png);
+}
+.frame3{
+    list-style-image: url(./image/3frame.png);
+}
+.frame4{
+    list-style-image: url(./image/4frame.png);
+}
+.group1{
+    border-left: dotted 2px;
+    margin: 4% 0%;
+    padding-left: 3%;
+}
+.grey{
+    color: #7D7E7F;
+}
+.green{
+    color: #09BEA8;
+}
+
