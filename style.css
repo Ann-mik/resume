@@ -82,8 +82,9 @@ li{
 .green{
     color: #09BEA8;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .str{
+        display: flex;
         flex-direction: column;
     }
 }
